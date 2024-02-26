@@ -1,7 +1,7 @@
 syntax = "proto3";
 package book;
 
-option go_package=".;proto/book";
+option go_package="proto/book";
 
 // Book Service
 
