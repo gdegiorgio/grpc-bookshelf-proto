@@ -1,11 +1,11 @@
 syntax = "proto3";
-package book;
+package books;
 
 option go_package="proto/book";
 
 // Book Service
 
-service BookService{
+service Book{
     rpc GetBook (GetBookRequest) returns (GetBookResponse);
 }
 
