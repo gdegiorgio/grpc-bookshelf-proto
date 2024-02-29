@@ -17,5 +17,5 @@ message GetBookResponse{
     string id=1;
     string title=2;
     string author=3;
-    string pagecount=4;
+    uint32 pagecount=4;
 }
